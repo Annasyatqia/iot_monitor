@@ -1,46 +1,44 @@
 body {
+    background-color: #ffe6f0; /* pink muda */
     font-family: "Times New Roman", Times, serif;
-    background: linear-gradient(to bottom right, #ff99aa, #ffe6ec);
-    margin: 0;
-    padding: 20px;
-    background-image: url('https://www.transparenttextures.com/patterns/white-wall.png'); /* watermark-style texture */
-    background-repeat: repeat;
+    margin: 40px;
+    color: #333;
 }
 
 h2 {
     text-align: center;
-    color: #c0392b;
-    text-shadow: 1px 1px 2px #fff0f0;
+    color: #c71585; /* deep pink */
+    text-shadow: 1px 1px 2px #fff;
 }
 
 table {
     width: 80%;
-    margin: 20px auto;
+    margin: 0 auto;
     border-collapse: collapse;
-    background-color: #fff0f5;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 10px;
-    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff0f5; /* light pink */
 }
 
 th, td {
     padding: 12px 15px;
     text-align: center;
-    border-bottom: 1px solid #f3c4cc;
+    border-bottom: 1px solid #ddd;
 }
 
 th {
-    background-color: #f78da7;
-    color: white;
+    background-color: #ffb6c1; /* pink */
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe6ea; /* selang-seling baris genap */
+}
+
+tr:nth-child(odd) {
+    background-color: #fff8fb; /* selang-seling baris ganjil */
 }
 
 tr:hover {
-    background-color: #ffeef1;
-}
-
-footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 14px;
-    color: #999;
+    background-color: #fce4ec; /* hover row */
 }
