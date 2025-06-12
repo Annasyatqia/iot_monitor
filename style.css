@@ -43,6 +43,7 @@ tr:last-child td:first-child {
 tr:last-child td:last-child {
     border-bottom-right-radius: 12px;
 }
+
 th {
     background-color: #ffb6c1; /* pink */
     color: #fff;
