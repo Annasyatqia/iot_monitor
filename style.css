@@ -1,36 +1,46 @@
 body {
-    background-color: #ffe6f0;
-    font-family: 'Times New Roman', serif;
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient(to bottom right, #ff99aa, #ffe6ec);
+    margin: 0;
     padding: 20px;
-    color: #333;
+    background-image: url('https://www.transparenttextures.com/patterns/white-wall.png'); /* watermark-style texture */
+    background-repeat: repeat;
 }
 
 h2 {
-    color: #d63384;
     text-align: center;
+    color: #c0392b;
+    text-shadow: 1px 1px 2px #fff0f0;
 }
 
 table {
-    width: 100%;
+    width: 80%;
+    margin: 20px auto;
     border-collapse: collapse;
-    margin-top: 20px;
+    background-color: #fff0f5;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 th, td {
-    border: 1px solid #ff99cc;
-    padding: 10px;
+    padding: 12px 15px;
     text-align: center;
+    border-bottom: 1px solid #f3c4cc;
 }
 
 th {
-    background-color: #ff4da6;
+    background-color: #f78da7;
     color: white;
 }
 
-tr:nth-child(even) {
-    background-color: #fff0f5;
+tr:hover {
+    background-color: #ffeef1;
 }
 
-tr:hover {
-    background-color: #ffe6f0;
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #999;
 }

@@ -7,7 +7,8 @@ $data = $conn->query("SELECT * FROM sensor_data ORDER BY waktu DESC LIMIT 10");
 <html>
 <head>
     <title>Monitor Sensor</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
     <h2>Data Sensor Terbaru</h2>
