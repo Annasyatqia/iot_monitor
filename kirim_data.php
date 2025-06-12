@@ -1,15 +1,17 @@
 <?php
-include "db_config.php";
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db = "nama_database_kamu";
+
+$conn = new mysqli($host, $user, $pass, $db);
 
 $gerakan = $_GET['gerakan'];
-$cahaya  = $_GET['cahaya'];
+$cahaya = $_GET['cahaya'];
+$waktu = date("Y-m-d H:i:s");
 
-$sql = "INSERT INTO sensor_data (waktu, gerakan, cahaya) 
-        VALUES (NOW(), '$gerakan', '$cahaya')";
+$sql = "INSERT INTO sensor_data (waktu, gerakan, cahaya) VALUES ('$waktu', '$gerakan', '$cahaya')";
+$conn->query($sql);
 
-if ($conn->query($sql) === TRUE) {
-    echo "Data masuk!";
-} else {
-    echo "Error: " . $conn->error;
-}
+echo "Data tersimpan";
 ?>
