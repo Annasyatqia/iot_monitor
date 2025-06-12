@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "nama_database_kamu";
+$db = "sensor_data";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
