@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "sensor_data";
+$db = "iot_db";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
