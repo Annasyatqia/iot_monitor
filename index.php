@@ -8,7 +8,6 @@ $data = $conn->query("SELECT * FROM sensor_data ORDER BY waktu DESC LIMIT 10");
 <head>
     <title>Monitor Sensor</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
